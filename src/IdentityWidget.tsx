@@ -14,11 +14,9 @@ export const IdentityWidget = (props: IdentityWidgetProps) => {
   useEffect(() => {
     (window as any).netlifyIdentity = identity;
 
-    const unmountFn = props.onLoad ? props.onLoad(identity) : undefined;
+    if (props.onLoad) props.onLoad(identity);
 
     identity.init(props.config);
-
-    return unmountFn;
   }, []);
 
   return <div />;
