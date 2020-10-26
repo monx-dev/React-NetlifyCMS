@@ -10,8 +10,6 @@ on:
 
 env:
   NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-  SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
@@ -37,9 +35,6 @@ jobs:
       run: |
         yarn --frozen-lockfile
         yarn build
-
-    - name: SonarCloud Scan
-      uses: sonarsource/sonarcloud-github-action@master
 
     - name: Release and publish
       run: |
