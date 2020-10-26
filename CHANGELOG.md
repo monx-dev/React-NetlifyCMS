@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.0...v1.0.1) (2020-10-26)
+
+
+### Bug Fixes
+
+* missing identity type on onLoad callback ([b28ead4](https://github.com/monx-dev/React-NetlifyCMS/commit/b28ead4b6c3d0295d122cd92782b99b88f078811))
+
 # 1.0.0 (2020-10-25)
 
 
