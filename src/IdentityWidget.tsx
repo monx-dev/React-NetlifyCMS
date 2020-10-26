@@ -10,9 +10,9 @@ export const IdentityWidget = (props: IdentityWidgetProps) => {
   useEffect(() => {
     (window as any).netlifyIdentity = identity;
 
-    identity.init(props.config);
-
     if (props.onLoad) props.onLoad(identity);
+
+    identity.init(props.config);
   }, []);
 
   return <div />;
