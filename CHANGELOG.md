@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.2...v1.0.3) (2020-10-26)
+
+
+### Bug Fixes
+
+* missing React import ([2c52672](https://github.com/monx-dev/React-NetlifyCMS/commit/2c52672e3cb592f4bfc84c17ced34a0f2a1a60ab))
+
 ## [1.0.2](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.1...v1.0.2) (2020-10-26)
 
 
