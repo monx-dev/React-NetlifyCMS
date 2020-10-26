@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.3...v1.0.4) (2020-10-26)
+
+
+### Bug Fixes
+
+* identity onload ([9dc3404](https://github.com/monx-dev/React-NetlifyCMS/commit/9dc3404a82bc615a0bc743c7b486681c7df97ebd))
+
 ## [1.0.3](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.2...v1.0.3) (2020-10-26)
 
 
