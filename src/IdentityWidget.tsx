@@ -3,9 +3,11 @@ import identity, { InitOptions } from 'netlify-identity-widget';
 
 export type OnLoad<T> = (item: T) => void | (() => void | undefined);
 
+export type Identity = typeof identity;
+
 export interface IdentityWidgetProps {
   config: InitOptions;
-  onLoad?: OnLoad<typeof identity>;
+  onLoad?: OnLoad<Identity>;
 }
 
 export const IdentityWidget = (props: IdentityWidgetProps) => {
