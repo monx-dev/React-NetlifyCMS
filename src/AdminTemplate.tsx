@@ -10,8 +10,8 @@ interface AdminTemplateProps {
 export default function AdminTemplate(props: AdminTemplateProps) {
   return (
     <>
-      <IdentityWidget {...props.identity} />
       <NetlifyCMS {...props.cms} />
+      <IdentityWidget {...props.identity} />
     </>
   );
 }
