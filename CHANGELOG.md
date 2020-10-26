@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.4...v1.0.5) (2020-10-26)
+
+
+### Bug Fixes
+
+* deploy ([2399a54](https://github.com/monx-dev/React-NetlifyCMS/commit/2399a54dba1af8f219b8d2e65694f1ca253fe013))
+* identity? ([3cd8ff8](https://github.com/monx-dev/React-NetlifyCMS/commit/3cd8ff867736ed073a1b3c53d8089b8867eaedac))
+* remove sonar ([f835313](https://github.com/monx-dev/React-NetlifyCMS/commit/f835313881bcd2ca9dcbaef667436af4ab029122))
+
 ## [1.0.4](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.3...v1.0.4) (2020-10-26)
 
 
