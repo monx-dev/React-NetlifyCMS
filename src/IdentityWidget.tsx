@@ -12,11 +12,11 @@ export interface IdentityWidgetProps {
 
 export const IdentityWidget = (props: IdentityWidgetProps) => {
   useEffect(() => {
-    (window as any).netlifyIdentity = identity;
+    (window as any).netlifyIdentity = Identity;
 
-    if (props.onLoad) props.onLoad(identity);
+    if (props.onLoad) props.onLoad(Identity);
 
-    identity.init(props.config);
+    Identity.init(props.config);
   }, []);
 
   return <div />;
