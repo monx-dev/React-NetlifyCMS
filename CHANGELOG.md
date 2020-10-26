@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.5...v1.0.6) (2020-10-26)
+
+
+### Bug Fixes
+
+* onLoad identity ([edb785e](https://github.com/monx-dev/React-NetlifyCMS/commit/edb785ee728956cb2ad1f318d21358a36c749032))
+
 ## [1.0.5](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.4...v1.0.5) (2020-10-26)
 
 
