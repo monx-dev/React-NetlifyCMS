@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import CMS from 'netlify-cms-app';
 import { CmsConfig } from 'netlify-cms-core';
 import { OnLoad } from './IdentityWidget';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { NetlifyCMS, NetlifyCMSProps } from './NetlifyCMS';
 import { IdentityWidgetProps, IdentityWidget } from './IdentityWidget';
 
