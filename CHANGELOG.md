@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.1...v1.1.2) (2020-10-27)
+
+
+### Bug Fixes
+
+* types ([6a78fa6](https://github.com/monx-dev/React-NetlifyCMS/commit/6a78fa6ca40a696025200d571862bb9ebe1c842e))
+
 ## [1.1.1](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.0...v1.1.1) (2020-10-27)
 
 
