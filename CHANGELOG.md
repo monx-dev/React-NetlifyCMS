@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.6...v1.0.7) (2020-10-26)
+
+
+### Bug Fixes
+
+* init ([8c79e02](https://github.com/monx-dev/React-NetlifyCMS/commit/8c79e02ccdd95cab6951d7d9892be154e5b59f3a))
+
 ## [1.0.6](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.5...v1.0.6) (2020-10-26)
 
 
