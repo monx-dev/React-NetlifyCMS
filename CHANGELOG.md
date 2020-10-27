@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.0...v1.1.1) (2020-10-27)
+
+
+### Bug Fixes
+
+* peerdependencies ([1e3d48a](https://github.com/monx-dev/React-NetlifyCMS/commit/1e3d48a832aa16f157a3dbddffacaccbf2c3ac49))
+
 # [1.1.0](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.7...v1.1.0) (2020-10-27)
 
 
