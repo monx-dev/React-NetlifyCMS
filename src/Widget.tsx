@@ -1,6 +1,8 @@
 import React from 'react';
 import { CmsField } from 'netlify-cms-core';
 
+type WidgetParams<T> = T & CmsField;
+
 export interface WidgetComponentProps<T> {
   field: any;
   forID: string;
@@ -11,13 +13,13 @@ export interface WidgetComponentProps<T> {
   onChange: (value: T) => void;
 }
 
-interface WidgetProps<T, P extends CmsField> {
+interface WidgetProps<T, P> {
   value: T;
   onChange: (value: T) => void;
-  params: P;
+  params: WidgetParams<P>;
 }
 
-export default function Widget<T, P extends CmsField = CmsField>(
+export default function Widget<T, P = CmsField>(
   Component: React.ComponentType<WidgetProps<T, P>>,
   config?: {
     isValid?: (value: T) => boolean | { error: { message: string } };
@@ -25,7 +27,7 @@ export default function Widget<T, P extends CmsField = CmsField>(
   }
 ) {
   return class WidgetComponent extends React.Component<WidgetComponentProps<T>> {
-    getParams = (): P => {
+    getParams = (): WidgetParams<P> => {
       const params: any = {};
       this.props.field._root.entries.forEach((p: string[]) => {
         params[p[0]] = p[1];
