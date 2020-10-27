@@ -8,7 +8,7 @@ yarn add -D @types/netlify-identity-widget
 collections.ts
 
 ```typescript
-import { CmsCollection } from 'netlify-cms-core';
+import { CmsCollection } from '@monx/react-netlifycms';
 
 export const collections: CmsCollection[] = [
   {
@@ -17,15 +17,11 @@ export const collections: CmsCollection[] = [
     folder: 'blog',
     create: true,
     fields: [
+      { label: 'Published', name: 'published', widget: 'boolean' },
       { label: 'Title', name: 'title', widget: 'string' },
       { label: 'Publish Date', name: 'date', widget: 'datetime' },
-      { label: 'Meta Title', name: 'metaTitle', widget: 'string' },
-      { label: 'Meta Description', name: 'metaDescription', widget: 'string' },
-      { label: 'Meta Image', name: 'metaImage', widget: 'image' },
       { label: 'Body', name: 'body', widget: 'markdown' },
-      { label: 'Tags', name: 'tags', widget: 'list' },
       { label: 'Authors', name: 'authors', widget: 'list' },
-      { label: 'Published', name: 'published', widget: 'boolean' },
     ],
   },
 ]
@@ -35,7 +31,7 @@ export const collections: CmsCollection[] = [
 import dynamic from 'next/dynamic';
 import { collections } from '~/admin/collections'
 
-const CMS = dynamic(() => import('@monx/react-netlifycms'), {
+const NetlifyCMS = dynamic(() => import('@monx/react-netlifycms'), {
   ssr: false,
 })
 
