@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.7...v1.1.0) (2020-10-27)
+
+
+### Features
+
+* add Widget constructor ([a57677d](https://github.com/monx-dev/React-NetlifyCMS/commit/a57677d8d744e47934992b51e94ef7b7e9c5c4cf))
+
 ## [1.0.7](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.0.6...v1.0.7) (2020-10-26)
 
 
