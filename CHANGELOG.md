@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.2...v1.1.3) (2020-10-27)
+
+
+### Bug Fixes
+
+* simplify widget ([4c563c0](https://github.com/monx-dev/React-NetlifyCMS/commit/4c563c0f05f295b131584d90a75b4f0a2da50b35))
+
 ## [1.1.2](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.1...v1.1.2) (2020-10-27)
 
 
