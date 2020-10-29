@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.3...v1.1.4) (2020-10-29)
+
+
+### Bug Fixes
+
+* identity optional config ([baac382](https://github.com/monx-dev/React-NetlifyCMS/commit/baac382afbebc93bbe00248aac68825aa9735bff))
+
 ## [1.1.3](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.2...v1.1.3) (2020-10-27)
 
 
