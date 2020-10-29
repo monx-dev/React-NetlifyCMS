@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.4...v1.1.5) (2020-10-29)
+
+
+### Bug Fixes
+
+* identity props optional ([7e1bb33](https://github.com/monx-dev/React-NetlifyCMS/commit/7e1bb334072348948482b7f2a9f891ee2996e1f0))
+
 ## [1.1.4](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.3...v1.1.4) (2020-10-29)
 
 
