@@ -2,12 +2,12 @@ import React from 'react';
 import { NetlifyCMS, NetlifyCMSProps } from './NetlifyCMS';
 import { IdentityWidgetProps, IdentityWidget } from './IdentityWidget';
 
-interface AdminTemplateProps {
+interface TemplateProps {
   cms: NetlifyCMSProps;
-  identity: IdentityWidgetProps;
+  identity?: IdentityWidgetProps;
 }
 
-export default function AdminTemplate(props: AdminTemplateProps) {
+export default function Template(props: TemplateProps) {
   return (
     <>
       <NetlifyCMS {...props.cms} />

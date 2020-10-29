@@ -1,4 +1,4 @@
-export { default } from './AdminTemplate';
+export { default } from './Template';
 export { IdentityWidget } from './IdentityWidget';
 export { NetlifyCMS } from './NetlifyCMS';
 
