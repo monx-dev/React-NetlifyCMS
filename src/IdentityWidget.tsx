@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import identity, { InitOptions } from 'netlify-identity-widget';
 
 export interface IdentityWidgetProps {
-  config: InitOptions;
+  config?: InitOptions;
   onLoad?: (identit: typeof identity) => void;
 }
 
