@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.5...v1.2.0) (2020-10-30)
+
+
+### Features
+
+* add preview component ([e2ab24b](https://github.com/monx-dev/React-NetlifyCMS/commit/e2ab24b77ebfbe6600a33b7a0d6ff101bfee513b))
+
 ## [1.1.5](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.1.4...v1.1.5) (2020-10-29)
 
 
