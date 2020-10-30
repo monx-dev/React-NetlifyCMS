@@ -8,7 +8,7 @@ import { DEFAULT_EXTENSIONS } from '@babel/core';
 import { dependencies } from './package.json';
 
 export default {
-  input: ['src/index.tsx', 'src/Widget.tsx'],
+  input: ['src/index.tsx', 'src/Widget.tsx', 'src/Preview.tsx'],
   output: [
     {
       dir: 'dist',
