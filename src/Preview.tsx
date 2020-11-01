@@ -1,16 +1,25 @@
 import React, { ComponentType } from 'react';
 import { PreviewTemplateComponentProps } from 'netlify-cms-core';
 
-interface PreviewProps {
-  get: (keys: string[]) => any;
+interface PreviewProps<T> {
+  values: T;
 }
 
-export const Preview = (Component: ComponentType<PreviewProps>) => {
+export function Preview<T>(Component: ComponentType<PreviewProps<T>>) {
   const Preview = ({ entry }: PreviewTemplateComponentProps) => {
-    const get = (keys: string[]) => entry.getIn(['data', ...keys]);
+    function test(prev: any, value: any, key: string) {
+      if (typeof value === 'object' && typeof value.getMonth !== 'function') {
+        prev[key] = value.reduce(test, {});
+      } else {
+        prev[key] = value;
+      }
+      return prev;
+    }
 
-    return <Component get={get} />;
+    const values = entry.getIn(['data']).reduce(test, {});
+
+    return <Component values={values} />;
   };
 
   return Preview;
-};
+}
