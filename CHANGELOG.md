@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.0...v1.3.1) (2020-11-01)
+
+
+### Bug Fixes
+
+* preview array ([254c6d9](https://github.com/monx-dev/React-NetlifyCMS/commit/254c6d9bb095d366b8bb5aef2bc9157fc94eed41))
+
 # [1.3.0](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.2.0...v1.3.0) (2020-11-01)
 
 
