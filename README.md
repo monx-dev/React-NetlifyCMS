@@ -1,11 +1,11 @@
-# React NetlifyCMS
+# React NetlifyCMS with Identity Widget
 
 ```bash
 yarn add @monx/react-netlifycms
 yarn add -D @types/netlify-identity-widget 
 ```
 
-collections.ts
+## collections.ts
 
 ```typescript
 import { CmsCollection } from '@monx/react-netlifycms';
@@ -27,6 +27,8 @@ export const collections: CmsCollection[] = [
 ]
 ```
 
+## Page
+
 ```typescript
 import dynamic from 'next/dynamic';
 import { collections } from '~/admin/collections'
@@ -36,6 +38,8 @@ import { TinyMCEWidget } from '~/admin/widgets/TinyMCEWidget';
 const NetlifyCMS = dynamic(() => import('@monx/react-netlifycms'), {
   ssr: false,
 })
+
+// import NetlifyCMS from '@monx/react-netlifycms'
 
 export default function AdminPage() {
   return (
@@ -57,30 +61,18 @@ export default function AdminPage() {
           cms.registerWidget('editor', TinyMCEWidget);
         },
       }}
+      identity={{ // optional
+        config: {
+          logo: false
+        },
+        onLoad: (identity) => {
+
+        }
+      }}
     />
   );
 }
 ```
-
-to access admin in dev mode
-
-```bash
-yarn add -D concurrently netlify-cms-proxy-server
-```
-
-add script in package.json
-
-```json
-"dev:admin": "concurrently \"next dev\" \"netlify-cms-proxy-server\""
-```
-
-run
-
-```bash
-yarn dev:admin
-```
-
-http://localhost:3000/admin
 
 ## Preview
 
@@ -128,4 +120,24 @@ export const TinyMCEWidget = Widget<string>(({ onChange, value }) => {
     />
   );
 });
+```
+
+## Dev mode
+
+to access admin in dev mode
+
+```bash
+yarn add -D concurrently netlify-cms-proxy-server
+```
+
+add script in package.json
+
+```json
+"dev:admin": "concurrently \"next dev\" \"netlify-cms-proxy-server\""
+```
+
+run
+
+```bash
+yarn dev:admin
 ```
