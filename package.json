@@ -12,7 +12,7 @@
   "homepage": "https://github.com/monx-dev/React-NetlifyCMS#readme",
   "scripts": {
     "commit": "git-cz",
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf dist && rimraf types",
     "build": "rollup -c",
     "release": "semantic-release",
     "test": "yarn build"
@@ -22,11 +22,11 @@
     "netlify-identity-widget": "^1.9.1"
   },
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "types/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@monx/eslint-config-next": "^1.0.4",
-    "@monx/rollup-config": "^1.1.0",
+    "@monx/rollup-config": "^1.1.1",
     "@monx/versioning": "^1.0.1",
     "@types/netlify-identity-widget": "^1.9.0",
     "@types/node": "^14.0.4",

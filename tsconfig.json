@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "declarationDir": "dist",
+    "declarationDir": "types",
     "skipLibCheck": true,
     "target": "es6",
     "lib": [
