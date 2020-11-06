@@ -1,12 +1,8 @@
 import configRollbar from '@monx/rollup-config';
-import { main, dependencies, peerDependencies, browser, module } from './package.json';
+import { dependencies, peerDependencies } from './package.json';
 
 export default configRollbar({
+  input: ['src/index.ts', 'src/Preview.tsx', 'src/Widget.tsx'],
   dependencies,
-  output: 'teste',
-  file: 'src/index.ts',
-  main,
-  browser,
-  module,
   peerDependencies,
 });
