@@ -12,7 +12,7 @@
   "homepage": "https://github.com/monx-dev/React-NetlifyCMS#readme",
   "scripts": {
     "commit": "git-cz",
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf dist && rimraf types",
     "build": "rollup -c",
     "release": "semantic-release",
     "test": "yarn build"
@@ -24,7 +24,7 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "types/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@monx/eslint-config-next": "^1.0.3",
