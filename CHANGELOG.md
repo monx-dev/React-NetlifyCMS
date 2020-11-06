@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.9...v1.4.0) (2020-11-06)
+
+
+### Features
+
+* build with umd format ([ab2853c](https://github.com/monx-dev/React-NetlifyCMS/commit/ab2853c96ad13a511c83a0dc3b9bdc47d7794128))
+
 ## [1.3.9](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.8...v1.3.9) (2020-11-06)
 
 
