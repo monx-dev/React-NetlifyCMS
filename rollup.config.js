@@ -5,5 +5,5 @@ export default configRollbar({
   input: ['src/index.ts'],
   dependencies,
   peerDependencies,
-  format: 'amd',
+  format: 'esm',
 });
