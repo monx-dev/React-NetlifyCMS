@@ -1,3 +1,10 @@
+## [1.3.9](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.8...v1.3.9) (2020-11-06)
+
+
+### Bug Fixes
+
+* build ([a091ef8](https://github.com/monx-dev/React-NetlifyCMS/commit/a091ef8c0158fb30abf445a55180b504f1fa7f97))
+
 ## [1.3.8](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.7...v1.3.8) (2020-11-06)
 
 
