@@ -1,4 +1,4 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { releaseConfig } = require('@monx/versioning');
+const { huskyConfig } = require('@monx/versioning');
 
-module.exports = releaseConfig;
+module.exports = huskyConfig;
