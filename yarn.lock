@@ -6562,6 +6562,11 @@ lockfile@^1.0.4:
   dependencies:
     signal-exit "^3.0.2"
 
+lodash-es@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
+  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
+
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -7291,10 +7296,10 @@ nerf-dart@^1.0.0:
   resolved "https://registry.yarnpkg.com/nerf-dart/-/nerf-dart-1.0.0.tgz#e6dab7febf5ad816ea81cf5c629c5a0ebde72c1a"
   integrity sha1-5tq3/r9a2Bbqgc9cYpxaDr3nLBo=
 
-netlify-cms-app@^2.12.27:
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.13.0.tgz#78882b2c248e55eb26d3d26b08a403710409627a"
-  integrity sha512-UM+740N7t1KJohFRKpyr1uwbYGT1Bk7RBwI+CRJDGy2SDRW0aQWvSU8DcYP1ZfSmEUySVZtdbKfPevx8K057xQ==
+netlify-cms-app@^2.13.2:
+  version "2.13.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.13.2.tgz#c32b9f70278a7bd27bcc4639bc3bd84802228086"
+  integrity sha512-/3fzRO38X0w02aWC/WCGDsoi34OsgiLpC6LRvtJ+69aHmyKfFiT5TsjJEioX2O8ASrO3rGicNtF6f/3V88VcDQ==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
@@ -7306,7 +7311,7 @@ netlify-cms-app@^2.12.27:
     netlify-cms-backend-github "^2.11.6"
     netlify-cms-backend-gitlab "^2.9.5"
     netlify-cms-backend-test "^2.10.5"
-    netlify-cms-core "^2.33.1"
+    netlify-cms-core "^2.33.2"
     netlify-cms-editor-component-image "^2.6.7"
     netlify-cms-lib-auth "^2.2.12"
     netlify-cms-lib-util "^2.11.5"
@@ -7314,7 +7319,7 @@ netlify-cms-app@^2.12.27:
     netlify-cms-ui-default "^2.11.6"
     netlify-cms-widget-boolean "^2.3.4"
     netlify-cms-widget-code "^1.2.4"
-    netlify-cms-widget-color "^1.0.0"
+    netlify-cms-widget-colorstring "^1.0.0"
     netlify-cms-widget-date "^2.5.5"
     netlify-cms-widget-datetime "^2.6.5"
     netlify-cms-widget-file "^2.7.4"
@@ -7380,10 +7385,10 @@ netlify-cms-backend-test@^2.10.5:
   resolved "https://registry.yarnpkg.com/netlify-cms-backend-test/-/netlify-cms-backend-test-2.10.5.tgz#b06cf3adc425841d89689c1bf0c0658949fc48c9"
   integrity sha512-YHuMfAuzmDKd89YvMNfZh4F0DhGYGJVBVEV5H/MgOkPQcREG9SdLNjDyBcr/Y7mpjlu6MwR3s71BgMWIlFGpJg==
 
-netlify-cms-core@^2.33.1:
-  version "2.33.1"
-  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.33.1.tgz#dbabec4a1c326cbc6f033141ba8cfbeaf8dc2326"
-  integrity sha512-4FWMWNO2bNbI3R3uPahjOijyMsrA14h7CNC/yeJ0JC62nOJskKWlvC8x4FfBSRuE9E0SFkwyPF1mF1pDVcWKsQ==
+netlify-cms-core@^2.33.2:
+  version "2.33.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.33.2.tgz#b0fcfdadc36bdc46719f61b258a22754e787b7c9"
+  integrity sha512-stbqloMz35kYQkxvOXBtfTDNGiY3VdyWa4yXNyiFq90MIQjSI3ufVSslanAvM/amOd8MRGnWXLa16NC2rBQisg==
   dependencies:
     "@iarna/toml" "2.2.5"
     ajv "^6.10.0"
@@ -7476,12 +7481,13 @@ netlify-cms-widget-code@^1.2.4:
     react-codemirror2 "^7.0.0"
     react-select "^2.4.3"
 
-netlify-cms-widget-color@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/netlify-cms-widget-color/-/netlify-cms-widget-color-1.0.0.tgz#487f2b0f9826c98ac93300091ba7b686fe57299f"
-  integrity sha1-SH8rD5gmyYrJMwAJG6e2hv5XKZ8=
+netlify-cms-widget-colorstring@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/netlify-cms-widget-colorstring/-/netlify-cms-widget-colorstring-1.0.1.tgz#3285fb2da21e0fb5741ee437b7798c643e9d9343"
+  integrity sha512-qkhBtl7nRYT/yM1SDdlQ7ueVj+vP7dLoAuBl9O2V1jgAomThUV9OEs5xLI5TNdvF7Yp8SR4NHnVSteqyYetIDQ==
   dependencies:
-    react-color "^2.14.1"
+    react-color "^2.18.1"
+    validate-color "^2.1.0"
 
 netlify-cms-widget-date@^2.5.5:
   version "2.5.5"
@@ -8902,13 +8908,14 @@ react-codemirror2@^7.0.0:
   resolved "https://registry.yarnpkg.com/react-codemirror2/-/react-codemirror2-7.2.1.tgz#38dab492fcbe5fb8ebf5630e5bb7922db8d3a10c"
   integrity sha512-t7YFmz1AXdlImgHXA9Ja0T6AWuopilub24jRaQdPVbzUJVNKIYuy3uCFZYa7CE5S3UW6SrSa5nAqVQvtzRF9gw==
 
-react-color@^2.14.1:
-  version "2.18.1"
-  resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.18.1.tgz#2cda8cc8e06a9e2c52ad391a30ddad31972472f4"
-  integrity sha512-X5XpyJS6ncplZs74ak0JJoqPi+33Nzpv5RYWWxn17bslih+X7OlgmfpmGC1fNvdkK7/SGWYf1JJdn7D2n5gSuQ==
+react-color@^2.18.1:
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/react-color/-/react-color-2.19.3.tgz#ec6c6b4568312a3c6a18420ab0472e146aa5683d"
+  integrity sha512-LEeGE/ZzNLIsFWa1TMe8y5VYqr7bibneWmvJwm1pCn/eNmrabWDh659JSPn9BuaMpEfU83WTOJfnCcjDZwNQTA==
   dependencies:
     "@icons/material" "^0.2.4"
-    lodash "^4.17.11"
+    lodash "^4.17.15"
+    lodash-es "^4.17.15"
     material-colors "^1.2.1"
     prop-types "^15.5.10"
     reactcss "^1.2.0"
@@ -11479,6 +11486,11 @@ v8-to-istanbul@^4.1.3:
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
     source-map "^0.7.3"
+
+validate-color@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/validate-color/-/validate-color-2.1.0.tgz#ba32664db859a197c19520b50316b8b8d5ffa0bc"
+  integrity sha512-/78x9MDsanOisNfa4UxombQkPCE2A/hmFUtgunwGutpAgTRnhKvOhzJ4KeSDunbKEla6T+u0OlHd1hWCLVhSdA==
 
 validate-npm-package-license@^3.0.1, validate-npm-package-license@^3.0.4:
   version "3.0.4"
