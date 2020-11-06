@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.5...v1.3.6) (2020-11-06)
+
+
+### Bug Fixes
+
+* package ([eba3e50](https://github.com/monx-dev/React-NetlifyCMS/commit/eba3e50fe1feca2c4d03adb1bae088e8ea366f7a))
+
 ## [1.3.5](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.4...v1.3.5) (2020-11-06)
 
 
