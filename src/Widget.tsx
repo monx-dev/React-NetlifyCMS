@@ -19,7 +19,7 @@ interface WidgetProps<T, P> {
   params: WidgetParams<P>;
 }
 
-export default function Widget<T, P = CmsField>(
+function Widget<T, P = CmsField>(
   Component: React.ComponentType<WidgetProps<T, P>>,
   config?: {
     isValid?: (value: T) => boolean | { error: { message: string } };
@@ -56,3 +56,5 @@ export default function Widget<T, P = CmsField>(
     }
   };
 }
+
+export { Widget };
