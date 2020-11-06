@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.1...v1.3.2) (2020-11-06)
+
+
+### Bug Fixes
+
+* add [@monx](https://github.com/monx) packages ([0f39cd7](https://github.com/monx-dev/React-NetlifyCMS/commit/0f39cd70e8d691e80adceffd3fd3173dabace90c))
+
 ## [1.3.1](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.0...v1.3.1) (2020-11-01)
 
 
