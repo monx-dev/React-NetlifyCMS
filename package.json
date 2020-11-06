@@ -12,8 +12,8 @@
   "homepage": "https://github.com/monx-dev/React-NetlifyCMS#readme",
   "scripts": {
     "commit": "git-cz",
+    "prebuild": "rimraf dist",
     "build": "rollup -c",
-    "postbuild": "copyfiles -u 1 types/*.d.ts dist",
     "release": "semantic-release",
     "test": "yarn build"
   },
@@ -36,6 +36,7 @@
     "copyfiles": "^2.4.0",
     "eslint": "^7.3.1",
     "husky": "^4.2.5",
+    "rimraf": "^3.0.2",
     "rollup": "^2.15.0",
     "typescript": "^3.9.3"
   },
