@@ -965,10 +965,10 @@
     prettier "^2.1.2"
     typescript "^4.0.5"
 
-"@monx/rollup-config@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@monx/rollup-config/-/rollup-config-1.0.7.tgz#a66db57053f60b9de0d4fe6c6833243757fbf43b"
-  integrity sha512-BF6X9eNJAnsUbBKI8ES7TrbadRLUpNYYWhv1tPB8iSNSee1seAidA+5OjS7d9ftu404YXzHyhxXPuGhSMGDd+g==
+"@monx/rollup-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@monx/rollup-config/-/rollup-config-1.1.0.tgz#01e74d2775456de7c84310b2e764b172d548aa58"
+  integrity sha512-neQGRH4NYqcSBYilS5KWPAK+b8jc7qc5bOIW0/vNy4OZ64gsmY08yq4MwH4L4/1NXaMptz3GflvOgS2RwEyUAQ==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/preset-react" "^7.12.5"
