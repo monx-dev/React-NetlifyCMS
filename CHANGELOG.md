@@ -1,3 +1,11 @@
+## [1.3.7](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.6...v1.3.7) (2020-11-06)
+
+
+### Bug Fixes
+
+* husky and release configs ([0da6244](https://github.com/monx-dev/React-NetlifyCMS/commit/0da6244b36a08f0dc49174373a727711b722f832))
+* test build with amd format ([655908c](https://github.com/monx-dev/React-NetlifyCMS/commit/655908c690fc87d60e8dd929e4195c85de1c45ba))
+
 ## [1.3.6](https://github.com/monx-dev/React-NetlifyCMS/compare/v1.3.5...v1.3.6) (2020-11-06)
 
 
